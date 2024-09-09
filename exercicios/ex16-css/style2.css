@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'londona' ;
+    src: url('Londona-reguler.otf')
+    format('opentype'), url('Londona-reguler.otf') format('truetype');
+font-weight: normal;
+font-style: normal;
+
+    /*Tipos de format ()
+    
+    - opentype (otf)
+    - truetype (ttf)
+    - embbed-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+}
+ body {
+    text-align: center;
+ }
+
+ h1 {
+    font-family: 'londona',serif;
+    font-weight: normal;
+ }

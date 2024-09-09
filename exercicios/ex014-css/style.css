@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body { /* Da para colocar mais de uma cor e nuca use mais de 5 cores */
+    background-image: linear-gradient(to bottom, #CA2445, #9E0221, #fd002a, #ff4262);
+}
+
+* { /* Configuraçoes Global da CSS */
+    height: 100%;
+}
