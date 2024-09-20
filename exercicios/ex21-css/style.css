@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
-div.quandrada {
-    
+body {
+    background-image: url('wallpaper004.jpg');
 }
+
+div.quandrada {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+}
+ div#q1 {
+background-color: aqua;
+ }
+
+ div#q2 {
+background-image: linear-gradient(to bottom, #ff0000, #720101);
+ }
+
+ div#q3 {
+background-image: url('pattern003.png');
+ }
