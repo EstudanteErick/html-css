@@ -68,7 +68,7 @@ article > p {
 }
 
 span#burguer {
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(138, 138, 138);
     color: white;
     width: 100vw;
     text-align: center;
@@ -78,5 +78,5 @@ span#burguer {
 
 span#burguer:hover {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
 }
