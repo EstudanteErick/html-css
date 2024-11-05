@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexíble Box</title>
+    <style>
+        div.conteiner {
+            background-color: aqua;
+            text-align: center;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.items {
+            background-color: blueviolet;
+            border: 1px solid black;
+            color: white;
+            flex-basis: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="items">1</div>
+        <div class="items">Conteudo pequeno</div>
+        <div class="items">3</div>
+        <div class="items">Conteudo medio bla bla bla bla</div>
+        <div class="items">5</div>
+        <div class="items">Conteudo maior bla bla bla bla bla bla</div>
+        <div class="items">7</div>
+    </div>
+</body>
+</html>
