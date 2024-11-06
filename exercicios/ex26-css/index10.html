@@ -9,25 +9,23 @@
             background-color: aqua;
             text-align: center;
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
         }
         div.items {
             background-color: blueviolet;
             border: 1px solid black;
             color: white;
-            flex-basis: 150px;
+            flex-basis: 300px;
+            flex-shrink: 1;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
         <div class="items">1</div>
-        <div class="items">Conteudo pequeno</div>
+        <div class="items">2</div>
         <div class="items">3</div>
-        <div class="items">Conteudo medio bla bla bla bla</div>
-        <div class="items">5</div>
-        <div class="items">Conteudo maior bla bla bla bla bla bla</div>
-        <div class="items">7</div>
+        <div class="items">4</div>
     </div>
 </body>
 </html>
